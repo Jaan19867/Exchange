@@ -1,0 +1,11 @@
+api/node_modules
+api/dist
+db/dist
+db/node_modules
+engine/dist
+engine/node_modules
+frontend/node_modules
+mm/dist 
+mm/node_modules 
+ws/dist
+ws/node_modules
