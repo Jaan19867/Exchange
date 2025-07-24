@@ -3,7 +3,7 @@
 A full-stack, real-time cryptocurrency exchange platform built with Next.js, TypeScript, Express, TimescaleDB, Redis, WebSocket, and Redis Pub/Sub. The system is designed for high performance, scalability, and real-time trading experiences.
 
 ---
-![Backend Architecture](docs/img.png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -22,15 +22,7 @@ This project is a microservices-based cryptocurrency exchange platform. It suppo
 
 ## Architecture
 
-```
-Frontend (Next.js, WebSocket)
-   |
-   v
-API Gateway (Express) <-> Redis Pub/Sub <-> Engine (Order Matching)
-   |                                         |
-   v                                         v
-TimescaleDB (Trade/Price Data)         WebSocket Service (Real-time updates)
-```
+![Backend Architecture](docs/img.png)
 
 - **Frontend** communicates with the backend via REST and WebSocket for real-time updates.
 - **API** handles HTTP requests, routes, and aggregates data.
