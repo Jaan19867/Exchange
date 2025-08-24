@@ -16,7 +16,7 @@ A full-stack, real-time cryptocurrency exchange platform built with Next.js, Typ
 ---
 
 ## Overview
-This project is a microservices-based cryptocurrency exchange platform. It supports real-time order matching, live orderbook and trade updates, and candlestick charting for multiple trading pairs. The system is built for extensibility and performance, using modern web and backend technologies.
+This project is a microservices-based cryptocurrency exchange platform. It supports real-time order matching, live orderbook and trade updates, and candlestick charting for multiple trading pairs. The system is built for extensibility and performance, using modern web and backend technologies .
 
 ---
 
